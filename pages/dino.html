@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/trailer.css">
+
+    <style>
+        .large_image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1200px;
+        }
+
+        .side_by_side_image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+        }
+
+        .image1 {
+            float: left;
+            max-height: 650px;
+            margin-top: 25px;
+        }
+
+        h2 {
+            max-width: 400px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Trailer Elements ------------------------------------------------------------------------------------>
+    <div id="trailer"></div>
+
+    <!-- Title Elements -->
+    <a class="links" id="logo_link" href="#">
+
+        <div class="logo_container">
+            <div class="logo_textp1">
+                Var&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="logo_textp2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ney
+            </div>
+            <div class="circle"></div>
+        </div>
+
+    </a>
+    <!-- Title 2 Elements -->
+    <div class="title_2_container">
+        <h1>Dino Head Pulse Oximeter</h1>
+    </div>
+
+    <!-- Image Elements -->
+    <img class="large_image" src="../images/dino1.jpeg">
+
+
+    <div class="side_by_side_image">
+        <img class="image1" src="../images/dino2.jpeg">
+
+        <h2>The “Dino Head” Pulse oximeter is designed for all ages but tailored to the use of children. The world of
+            health
+            care
+            and medical devices can be intimidating, so when designing an object for the home the goal was to redefine
+            what
+            a pulse
+            oximeter can look like. “While also making a more fun, accepting, and creative process for tasks as simple
+            as
+            taking
+            oxygen levels. The “Dino Head” attempts to accomplish that through subtle design queues and attention to
+            materials,
+            functionality, and use. All while standing out on the countertop.</h2>
+
+    </div>
+
+
+
+</body>
+
+
+<script src="../js/index.js"></script>
+<script src="../js/trailer.js"></script>
+<script src="../js/links.js"></script>
+
+<script>window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+            // This means the page was navigated to using the back button
+            // You can perform a full page reload here
+            window.location.reload();
+        }
+    });
+</script>
+
+</html>

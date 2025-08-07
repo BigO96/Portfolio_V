@@ -1,0 +1,62 @@
+.large_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.wide_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+/* Side by Side Image Container*/
+.sbs_container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.sbs_container_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sbs_image_thirds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 26vw;
+}
+
+.sbs_image_split_large {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40vw;
+    height: 100vh;
+}
+
+.sbs_textbox_split_large {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    height: 100vh;
+}
+
+.sbs_image_split_med {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40vw;
+    height: 80vh;
+}

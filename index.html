@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Created by Oscar Epp -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/trailer.css">
+</head>
+
+<body>
+    <main>
+        <!-- Trailer Elements ------------------------------------------------------------------------------------>
+        <div id="trailer"></div>
+
+        <!-- Title Elements ------------------------------------------------------------------------------------>
+        <div class="unselectable">
+            <div class="logo_container">
+                <div class="logo_textp1">
+                    Var&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="logo_textp2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ney
+                </div>
+                <div class="circle"></div>
+            </div>
+        </div>
+
+        <!-- Nav Elements -->
+        <div class="horizontal_nav_container">
+            <div class="centering_nav">
+                <div class="nav_column left"><a href="#" id="WORK" data-type="WORK">WORK</a></div>
+                <div class="nav_column middle"><a href="#" id="CONTACT" data-type="CONTACT">CONTACT</a>
+                </div>
+                <div class="nav_column right"><a href="#" id="RESUME" data-type="RESUME" target="_blank">RESUME</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Picture Elements ---------------------------------------------------------------------------------->
+        <div class="image_container">
+            <a class="links" id="summit" href="#" data-type="summit">
+                <img class="pics" src="images/mainpage1.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2023<br></div>Summit
+                </div>
+            </a>
+            <a class="links" id="sisters_table" href="#" data-type="sisters_table">
+                <img class="pics" src="images/mainpage2.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2023<br></div>Sisters Table
+                </div>
+            </a>
+            <a class="links" id="blob" href="#" data-type="blob">
+                <img class="pics" src="images/mainpage3.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2023<br></div>Blob.
+                </div>
+            </a>
+            <a class="links" id="goducks" href="#" data-type="goducks">
+                <img class="pics" src="images/mainpage4.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2023<br></div>Go Ducks
+                </div>
+            </a>
+            <a class="links" id="sculpture" href="#" data-type="sculpture">
+                <img class="pics" src="images/mainpage5.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2023<br></div>Sculpture
+                </div>
+            </a>
+            <a class="links" id="rock_shock" href="#" data-type="rock_shock">
+                <img class="pics" src="images/mainpage6.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2022<br></div>Rock Shock
+                </div>
+            </a>
+            <a class="links" id="rangefinder" href="#" data-type="rangefinder">
+                <img class="pics" src="images/mainpage7.gif">
+                <div class="image_text">
+                    <div class="image_text_date">2022<br></div>Range Finder
+                </div>
+            </a>
+            <a class="links" id="dinohead" href="#" data-type="dinohead">
+                <img class="pics" src="images/mainpage8.jpeg">
+                <div class="image_text">
+                    <div class="image_text_date">2022<br></div>Dino Head
+                </div>
+            </a>
+
+        </div>
+
+
+    </main>
+</body>
+<script src="js/trailer.js"></script>
+<script src="js/index.js"></script>
+<script src="js/links.js"></script>
+
+<script>window.addEventListener('pageshow', function (event) {
+        if (event.persisted) {
+            // This means the page was navigated to using the back button
+            // You can perform a full page reload here
+            window.location.reload();
+        }
+    });
+</script>
+
+</html>

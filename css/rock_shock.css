@@ -1,0 +1,41 @@
+.large_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.side_by_side_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    margin: 15px;
+}
+
+.image1 {
+    max-height: 100%;
+    width: 355px;
+
+}
+
+.image2 {
+    max-height: 100%;
+    width: 850px;
+}
+
+.image3 {
+    max-height: 100%;
+    width: 455px;
+}
+
+.image4 {
+    max-height: 100%;
+    width: 750px;
+}

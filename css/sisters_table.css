@@ -1,0 +1,32 @@
+/* Image Elements */
+
+.large_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.side_by_side_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2,
+.image3 {
+    max-height: 100%;
+    width: 600px;
+}
+
+.image4 {
+    max-height: 100%;
+    width: 400px;
+}
+
+.image5 {
+    max-height: 100%;
+    width: 800px;
+}
+
+/* Title 2 */
